@@ -1,4 +1,4 @@
-#Exports lists of papers in each/folder collection (by title and DOI) from Papers3, and a list of all collection names
+#Exports lists of papers in each collection/folder (by title and DOI) from Papers3, and a list of all collection names
 #see readme for notes on running
 #see line 18 if script doesn't work
 
