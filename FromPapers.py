@@ -14,7 +14,7 @@ missing_papers_path = './missing_papers.txt'
 #get number of papers in library
 
 #AppleScript command
-#if script doesn't work, check and modifit the name of the Papers3 app within the command
+#if script doesn't work, check and modify the name of the Papers3 app within the command
 cmd = '''
 tell application "Papers 3 (Legacy)"  
 	get count of publication items
@@ -104,6 +104,3 @@ with open(collection_names_path, "w") as f:
 with open(missing_papers_path, "w") as f:
     for item in missing_papers:
         f.write(str(item) + '\n')
-
-
-
