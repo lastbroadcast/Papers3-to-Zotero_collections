@@ -37,6 +37,8 @@ How to use:
 
 -Make sure the paths to 'title_dict.txt' and 'DOI_dict.txt' (the output files from the previous script) are correct.
 
+-Make sure the path to the Zotero database ('zotero.sqlite') is correct.
+
 -Make sure Zotero is closed.
 
 -Run script.
