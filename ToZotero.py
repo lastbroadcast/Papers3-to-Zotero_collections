@@ -6,7 +6,7 @@
 import sqlite3
 import json
 
-con = sqlite3.connect("/Users/Zotero/zotero.sqlite")  #make sure the path to Zotero database is correct
+con = sqlite3.connect("/Users/user/Zotero/zotero.sqlite")  #make sure the path to Zotero database is correct
 cur = con.cursor()
 
 dictPaths = [
