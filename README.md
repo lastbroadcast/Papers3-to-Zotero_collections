@@ -24,7 +24,7 @@ How to use:
 
 -Open the ToZotero.py script (don't run it yet).
 
--If you want the papers to be removed from their current Zotero collection (i.e. the library import folder) when they are moved to their new collection(s) (I recommend doing this to keep track of which papers have not been transfered), do the following: 
+-If you want the papers to be removed from their current Zotero collection (i.e. the library import folder) when they are moved to their new collection(s) (I recommend doing this to keep track of which papers have been transfered), do the following: 
    
    On line 11, add the exact name of the current collection. For example:
     importCollectionName = "Import"
@@ -42,3 +42,7 @@ How to use:
 -Make sure Zotero is closed.
 
 -Run script.
+
+-Check Uncategorised collection for any papers that could not be filed.
+
+4. After filing of the library into the collections, if you want to remove items from parent collections (and only have them appear in nested child collections), run the script Zotero_RemoveParents.
