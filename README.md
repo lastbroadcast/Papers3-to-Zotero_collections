@@ -12,7 +12,7 @@ How to use:
 
 -Make sure all collections in Papers3 have UNIQUE names. This may require renaming some of them. I suggest doing this before you export the library as XML.
 
--Run FromPapers.py script. 
+-Run FromPapers.py script. If script doesn't work, you may need to modify the name of the Papers 3 app in the script. See comment at top of script about this.
 
 3. Import collections into Zotero:
 
