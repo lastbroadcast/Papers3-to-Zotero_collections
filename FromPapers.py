@@ -1,6 +1,7 @@
 #Exports lists of papers in each collection/folder (by title and DOI) from Papers3, and a list of all collection names
 #see readme for notes on running
-#see line 17 if script doesn't work
+#
+#if script doesn't work, try modifying the name of Papers 3 app in the AppleScript commands on lines 19, 42, 48 and 54 (it may just be called 'Papers 3' on your system)
 
 import subprocess
 import json
@@ -14,7 +15,6 @@ missing_papers_path = './missing_papers.txt'
 #get number of papers in library
 
 #AppleScript command
-#if script doesn't work, check and modify the name of the Papers3 app within the command
 cmd = '''
 tell application "Papers 3 (Legacy)"  
 	get count of publication items
