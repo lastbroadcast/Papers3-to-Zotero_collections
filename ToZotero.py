@@ -78,7 +78,7 @@ for dictPath in dictPaths:
                             print("Item %s is already filed in collection %s)" % (key, collectionName))
 
                         #remove item from import collection
-                        if removeFromImportCollection == True:
+                        if removeFromImportCollection:
                             SQL_query = "SELECT collectionID FROM collections WHERE collectionName = '%s'" % importCollectionName
                             res = cur.execute(SQL_query)
                             collectionID_results = res.fetchone()
